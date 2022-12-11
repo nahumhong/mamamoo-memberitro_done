@@ -1,0 +1,94 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  width: 100%;
+  padding: 20px 8% 0px 8%;
+  background-color: black;
+}
+.logo{
+  color: pink;
+  font-weight:bold;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: #f9004d;
+}
+
+.Solar{
+  background: url(img/solarsolar.jpg);
+  background-repeat:repeat;
+  background-size: 316px 800px;
+  box-sizing: border-box;
+  box-shadow: inset -1200px 0 250px 0 rgb(0, 0, 0);
+}
+
+.solar_text{
+  width:50%;
+  color: white;
+  padding: 200px 200px 200px 0px;
+}    
+
+.Moonbyul {
+  background: url(img/moonbyulmoonbyul.jpg);
+  background-repeat:repeat;
+  background-size: 316px 800px;
+  box-sizing: border-box;
+  box-shadow: inset 1200px 0 250px 0 rgb(0, 0, 0);
+}
+
+.moonbyul_text{
+  width:50%;
+  color: white;
+  padding: 200px 0px 200px 200px;
+}
+
+.Wheein{    
+  background: url(img/wheeinwheein.jpg);
+  background-repeat:repeat;
+  background-size: 316px 800px;
+  box-sizing: border-box;
+  box-shadow: inset -1200px 0 250px 0 rgb(0, 0, 0);
+}
+
+.wheein_text{
+  width:50%;
+  color: white;
+  padding: 200px 180px 200px 0px;
+}
+
+.Hwasa{
+  background: url(img/hwasahwasa.jpg) ;
+  background-repeat:repeat;
+  background-size: 316px 800px;
+  box-sizing: border-box;
+  box-shadow: inset 1200px 0 250px 0 rgb(0, 0, 0);
+}
+
+.hwasa_text{
+  width:50%;
+  color: white;
+  padding: 200px 0px 200px 180px;
+}
+
+.col-12{
+  height:800px;
+}
+
+/*.row{
+  max-width: fit-content;
+}*/
